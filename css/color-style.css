@@ -1,0 +1,16 @@
+body {
+  background-color: var(--body-prime-color);
+  color: var(--text-prime-color);
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+  --logo-studio-color: #000000;
+  --bg-prime-color: #ffffff;
+  --bg-second-color: #f5f4fa;
+  --text-prime-color: #757575;
+  --text-second-color: #212121;
+  --text-accent-color: #2196f3;
+  --botton-prime-color: #f5f4fa;
+  --border-color: #eeeeee;
+  --link-footer-color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,9 @@
+section {
+  background-color: #fff5f6;
+}
+
+.about__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}/*# sourceMappingURL=main.css.map */
