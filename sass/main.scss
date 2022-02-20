@@ -1,1 +1,12 @@
+@import './base/reset';
+@import './utils/variables';
+@import './utils/mixin';
+@import './base/body';
+@import './utils/placeholder';
+// next
+// @import './common/section';
+@import './common/container';
+@import './components/section-pretitle';
+@import './components/section-title';
+
 @import './layout/about';

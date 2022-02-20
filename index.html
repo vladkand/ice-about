@@ -6,42 +6,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COW</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" re <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
-  <section class="about">
+  <section class="section about">
     <div class="container about__container">
-      <div class="about__head">
-        <h2 class="about__title-basic">how it’s made?</h2>
-        <div class="about__title-slogan">tradition and love</div>
-        <div class="about__content">
+
+      <p class="about__pre-title section-pretitle">tradition and love</p>
+      <h2 class="about__title section-title">how it’s made?</h2>
+
+      <div class="about__box">
+
+        <!-- box-image -->
+        <div class="about__tumb">
           <picture class="about__pic">
             <img src="./images/img-abaut/cow-320.png" width="320" alt="cow and milk jug">
           </picture>
-          <ul class="about__script">
-            <li class="about__item">
-              <p class="about__text--bold">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
-                cursus,
-                faucibus lorem eget, egestas eros.
-                Maecenas eleifend erat at justo fringilla.</p>
-            </li>
-            <li class="about__item">
-              <p class="about__text--thin">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris
-                rhoncus orci in imperdiet placerat.
-                Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
-              </p>
-            </li>
-            <li class="about__item">
-              <p class="about__text--thin">Aliquam erat volutpat. Aenean accumsan.</p>
-            </li>
-          </ul>
-          <button type="button" class="about__btn">Read more</button>
         </div>
+        <!-- box-centered -->
+
+        <div class="about__right-box">
+          <div class="about__txt-wrapper">
+
+            <p class="about__text--bold">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
+              cursus,
+              faucibus lorem eget, egestas eros.
+              Maecenas eleifend erat at justo fringilla.
+            </p>
+            <p class="about__text--thin">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
+              Mauris
+              rhoncus orci in imperdiet placerat.
+              Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+            </p>
+
+            <p class="about__text--thin">Aliquam erat volutpat. Aenean accumsan.</p>
+
+            <button type="button" class="about__btn btn-light">Read more
+              <svg class="about__more" width="4" height="8">
+                <use href="./images/icon/icon-btn_pink.svg"></use>
+              </svg>>
+            </button>
+
+          </div>
+
+        </div>
+
       </div>
-    </div>
     </div>
   </section>
 
